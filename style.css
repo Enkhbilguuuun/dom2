@@ -1,0 +1,68 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.cont{
+    background-color: white;
+    height: 900px;
+    width: 450px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative
+}
+.titla{
+ margin-left: 30px;
+ margin-top: 40px;
+}
+
+.title1{
+    font-size: 20px;
+    color: gray;
+    font-family: Manrope;
+
+}
+.title2{
+    margin-top: 10px;
+    font-size: 50px;
+    color: black;
+    font-family: Manrope;
+}
+
+.loc{
+ position: absolute;
+ left: 380px;
+ top: 70px;
+}
+.emoji{
+position: absolute;
+left: 50px;
+top: 200px;
+}
+
+.weather{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+.weath1{
+    font-size: 150px;
+    background: -webkit-linear-gradient(rgb(71, 71, 71), rgb(165, 165, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.weath2{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 220px;
+    color: orangered;
+    font-family: Manrope;
+}
+
+.nav{
+    width: 350px;
+}
